@@ -1,0 +1,47 @@
+:root {
+    --text-color: white;
+    --link-color: white;
+    --background-color: #87CEFA;
+}
+
+* {
+    margin: 5;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--background-color);
+}
+
+a {
+    padding: 5px;
+    color: var(--link-color);
+    text-decoration: none;
+}
+/*Nav Bar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    height: 80px;
+    align-items: center;
+}
+
+nav .left a {
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+nav .right a {
+    color: var(--link-color);
+    margin: 0 1px;
+}
+
